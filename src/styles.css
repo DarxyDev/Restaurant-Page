@@ -1,0 +1,49 @@
+html,body{
+    margin:0;
+    padding:0;
+}
+#content{
+    background-color:lightgray;
+    display:flex;
+    flex-direction:column;
+}
+nav{
+    background-color:lightgreen;
+    height:3rem;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    gap:.5rem;
+}
+section{
+    background-color:lightpink;
+    max-width:66%;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius:10px;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items:center;
+}
+.f-row{
+    display: flex;
+    flex-direction:row;
+    gap:3rem;
+}
+.img-title{
+    max-height:3rem;
+
+}
+.generated-page{
+    display:flex;
+    flex-direction: column;
+    gap:3rem;
+}
+.menu-item{
+    min-width:50%;
+}
+.title{
+    width:100%;
+    background-color:red;
+}
